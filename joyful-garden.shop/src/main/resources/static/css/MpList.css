@@ -1,0 +1,46 @@
+.Allp{
+	margin-top: 20px;
+	text-align: left;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.pList{
+	display: inline-flex;
+	flex-direction: column;
+	margin: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background: #fffaf4;
+	color:#7a7281;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pListItem{
+	display: block;
+	padding: 5px;
+	
+}
+
+.pListItem label{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+
+.pList.Image{
+	text-align: center;
+}
+
+.submitBox{
+	display: flex;
+	justify-content:space-around;
+	padding: 10px;
+}
+

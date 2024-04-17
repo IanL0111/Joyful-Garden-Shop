@@ -1,0 +1,118 @@
+body {
+    background-color: #fdfdfd; /* 背景顏色設定為淺灰色 */
+}
+.custom-btn { /*客製按鈕*/
+    margin: 0;
+    border-radius: 0; /* 去除圓角 */
+    background-color: #97A5C0; /* 背景顏色 */
+    color: #ffffff; /* 文字顏色 */
+    font-size: 15px; /* 文字大小 */
+    padding: 8px 16px; /* 內邊距 */
+    border: none; /* 去除邊框 */
+}
+
+
+.input-group.mt-2 {
+    margin: 0; /* 將 margin-top 設為 0 以消除上方間距 */
+}
+
+
+.custom-input { /* 自定義輸入留言框樣式 */
+    border-radius: 0; /* 去除圓角 */
+    border-color: #ced4da; /* 邊框顏色 */
+    padding: .375rem .75rem; /* 內邊距 */
+    font-size: 1rem; /* 字體大小 */
+    line-height: 1.5; /* 行高 */
+    color: #495057; /* 文字顏色 */
+    background-color: #fff; /* 背景顏色 */
+    background-clip: padding-box; /* 背景範圍 */
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; /* 過渡效果 */
+}
+.custom-input:focus { /* 當焦點在輸入框時的樣式 */
+    border-color: #80bdff; /* 聚焦時的邊框顏色 */
+    outline: 0; /* 去除聚焦時的陰影效果 */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* 聚焦時的陰影效果 */
+}
+
+
+
+/* 在post和reply之間添加空隙 */
+.post-section {
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 20px; /* 調整底部間距 */
+}
+
+/* 在reply之間添加空隙 */
+.reply-group {
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 20px; /* 調整底部間距 */
+}
+
+.post-time-divider {
+    border-bottom: 1px solid rgb(185, 185, 185); /* 添加細灰線 */
+    clear: both;
+}
+.reply-time-divider {
+    border-bottom: 1px solid rgb(185, 185, 185); /* 添加細灰線 */
+    clear: both;
+}
+
+.list-group-item {
+    /*border-bottom: 1px solid rgb(185, 185, 185); /* 添加細灰線 */
+}
+
+/* 修改post的comment部分的背景色 */
+.post-section .comment-group /*.list-group-item*/ {
+    background-color: #c9cacc; /* 您想要的背景色 */
+}
+
+/* 修改reply的comment部分的背景色 */
+.reply-group .comment-group /*.list-group-item*/ {
+    background-color: #c9cacc; /* 您想要的背景色 */
+}
+
+
+.post-section img {
+    max-width: 100%; /* 或者您希望的其他值 */
+    height: auto; /* 保持圖片的長寬比例 */
+}
+
+.reply-section img {
+    max-width: 100%; /* 或者您希望的其他值 */
+    height: auto; /* 保持圖片的長寬比例 */
+}
+
+
+
+.edit-btn {
+            border: none;
+            cursor: pointer;
+            background-color: #3498db;
+            border-radius: 5px;
+            color:white;
+            width: 40px;
+        }
+
+.delete-btn {
+            cursor: pointer;
+            background-color: #e74c3c;
+            border: none;
+            color:white;
+            margin-right: 5px;
+            front-size: 8px;
+            border-radius: 5px;
+            width: 40px;
+            
+        }
+        
+.delete-btnComm {
+            cursor: pointer;
+            background-color: #e74c3c;
+            border: none;
+            color:white;
+            margin-right: 5px;
+            front-size: 8px;
+            border-radius: 5px;
+            width: 70px;
+            
+        }

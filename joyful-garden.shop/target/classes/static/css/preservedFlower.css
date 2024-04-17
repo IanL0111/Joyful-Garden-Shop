@@ -1,0 +1,100 @@
+html{
+	margin: 0;
+}
+
+html body{
+	display: block;
+	margin-left: 110px;
+	font-family: console,微軟正黑體;
+
+}
+
+.title{
+	display: flex;
+	border-bottom: 2px solid #9ca8b8;
+	margin: 50px;
+    color: #7a7281;
+    font-size: 60px;
+   	font-weight: bold;
+   	padding-bottom: 20px;
+	justify-content: space-between;
+}
+
+.listBox{
+	margin-left: 30px;
+}
+
+.productList{
+	display: inline-flex;
+	flex-direction: column;
+	border: 3px solid #9ca8b8;
+	text-align: center;
+	margin:30px;
+	padding: 10px;
+	font-size: 15px;
+	width: 250px;
+	box-sizing: content-box;
+	color:#7a7281;
+	font-weight: bold;
+}
+
+.productList img{
+	width: 250px;
+	height: 250px;
+}
+
+.button{
+	width:250px;
+	height:30px;
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top:10px;
+	font-size: 5px；
+}
+
+.soldout{
+	width:250px;
+	height:30px;
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top:10px;
+	font-size: 5px；
+}
+
+button, input, optgroup, select, textarea {
+    font-size: initial; 
+}
+
+.carList{
+	position:fixed;
+	top:-100;
+	right:0;
+	width:230px;
+	background-color: rgba(0, 0, 0, 0.6); 
+	border-radius: 5px;
+	color:white;
+	text-align: left;
+	padding:5px;
+	transition: top 0.5s ease;
+}
+
+.carList i{
+	margin:10px;
+	cursor: pointer;
+}
+
+.carbutton{
+	width:auto;
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px
+}
+

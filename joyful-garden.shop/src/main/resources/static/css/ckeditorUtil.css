@@ -1,0 +1,9 @@
+
+.ck-editor__editable {
+    min-height: 200px;
+}
+
+.containerCK {
+    width:80%;
+    margin: 0 auto;
+}

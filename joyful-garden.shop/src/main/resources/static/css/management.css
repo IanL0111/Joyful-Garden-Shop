@@ -1,0 +1,144 @@
+html{
+	margin: 0;
+}
+
+.i{
+	display: flex;
+	justify-content:center;
+	padding: 10px;
+	margin:10px;
+}
+
+i{
+	border: 1px solid #9ca8b8;
+	padding: 10px;
+}
+
+
+html body{
+	display: block;
+	margin-left: 110px;
+	font-family: console,微軟正黑體;
+
+}
+
+.mBox{
+	width: 90%;
+	min-height: 500px;
+	margin-left: 70px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.title{
+	display: flex;
+	border-bottom: 2px solid #9ca8b8;
+	margin: 50px;
+    color: #7a7281;
+    font-size: 60px;
+   	font-weight: bold;
+   	padding-bottom: 20px;
+	justify-content: space-between;
+}
+
+.add{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.updateBox{
+	display: flex;
+	flex-direction: column;
+	border: 3px solid #ececea;
+}
+
+.addBox{
+	display: flex;
+	flex-direction: column;
+	display: none;
+	border: 3px solid #ececea;
+}
+
+.addBoxTop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
+.addBoxDown{
+	text-align: center;
+	margin: 20px;
+}
+
+.submitAdd{
+	font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #9ca8b8;
+    border-radius: 5px;
+    color: #7a7281;
+    background-color: #fffaf4;
+    font-weight: bold;
+}
+
+
+.addBoxLeft{
+	margin:10px;
+}
+
+.preImage {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+.inputImage {
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.Image{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.item{
+	padding: 20px;
+}
+
+.item label{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+.addButton{
+	font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #9ca8b8;
+    border-radius: 5px;
+    color: #7a7281;
+    background-color: #fffaf4;
+    font-weight: bold;
+}
+
+.AddModel{
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.AddModel img{
+	width: 300px;
+	height: auto;
+}
+
+.AddModel input {
+	margin-bottom: 15px;
+}

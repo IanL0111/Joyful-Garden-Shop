@@ -1,0 +1,55 @@
+html{
+	margin: 0;
+}
+
+h1{
+	color: #9ca8b8;
+	margin:30px;
+	font-family:Comic Sans MS;
+	font-size:60px;
+}
+
+html body{
+	display: block;
+	margin-left: 110px;
+	font-family: console,微軟正黑體;
+
+}
+
+.title{
+	display: flex;
+	border-bottom: 2px solid #9ca8b8;
+	margin: 50px;
+    color: #7a7281;
+    font-size: 60px;
+   	font-weight: bold;
+   	padding-bottom: 20px;
+}
+
+.category p{
+	width: 500px;
+	height: auto;
+	line-height: 2;
+	color: #7a7281;
+	cursor: pointer;
+}
+
+.category h1{
+	color: #7a7281;
+}
+
+.category{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 2px solid #9ca8b8;
+	margin: 80px;
+	margin-top: 0;
+}
+
+.category img{
+	width: 300px;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+
